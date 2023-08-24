@@ -70,3 +70,7 @@ svg{
     font-size: 22px;
     color: black;
 }
+
+svg:hover{
+    color: gray;
+}
