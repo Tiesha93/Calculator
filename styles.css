@@ -17,7 +17,7 @@ main {
     border-style: solid;
     border-color: aquamarine;
     box-shadow: 0 0 60px 30px #fff,
-    0 0 10px 10px #7fffd4;
+        0 0 10px 10px #7fffd4;
     margin: auto;
     margin-top: 50px;
     width: 280px;
@@ -50,6 +50,17 @@ button {
 }
 
 
+svg {
+    font-size: 22px;
+    color: black;
+}
+
+
+svg:hover {
+    color: gray;
+}
+
+
 @media screen and (max-width: 2560px) {
     footer {
         width: 100%;
@@ -66,12 +77,27 @@ button {
 }
 
 
-svg {
-    font-size: 22px;
-    color: black;
-}
+@media screen and (max-width: 320px) {
+    .flex-container {
+        width: 250px;
+        height: 392px;
+    }
 
+    .display {
+        width: 250px;
+        height: 80px;
+    }
 
-svg:hover {
-    color: gray;
+    button {
+        width: 62px;
+        height: 62px;
+    }
+
+    .clear {
+        width: 126px;
+    }
+
+    .equals {
+        width: 126px;
+    }
 }
